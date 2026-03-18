@@ -1,5 +1,5 @@
 [build]
-  command = "npx @11ty/eleventy"
+  command = "node_modules/.bin/eleventy"
   publish = "_site"
 
 [[headers]]
