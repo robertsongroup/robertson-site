@@ -1,5 +1,5 @@
 [build]
-  command = "node_modules/.bin/eleventy"
+  command = "npm install @11ty/eleventy && ./node_modules/.bin/eleventy"
   publish = "_site"
 
 [[headers]]
