@@ -3,7 +3,7 @@ title: Why do most strategic plans fail by February?
 date: 2026-03-18T10:00:00.000-07:00
 category: Business Strategy
 ---
-It's halfway through March, and that means if you're an SMB owner you are already behind on your strategic plans and goals for the year.
+It's halfway through March, and that means if you're a business owner you are already behind on your strategic plans and goals for the year.
 
 Did I get that right?  
 
