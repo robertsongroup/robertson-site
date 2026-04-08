@@ -1,6 +1,7 @@
 ---
 title: When nothing happens, you were successful.
 date: 2026-03-27T13:26:00.000-07:00
+category: IT Leadership
 ---
 One of the biggest challenges for IT leaders and their teams is that when they are the most successful, nothing happens. Systems don't go down, people don't have technical issues, your backup doesn't fail when you need it to, you don't get a ransomware attack or a data breach, productivity isn't hampered by some ancient application someone won't let go of.  Everything is fine.  Nothing to see here.
 
