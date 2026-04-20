@@ -1,6 +1,7 @@
 ---
 title: When gut feel is no longer enough
 date: 2026-04-20T12:01:00.000-07:00
+category: SMB Topics
 ---
 
 
