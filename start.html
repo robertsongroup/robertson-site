@@ -27,7 +27,11 @@ img{max-width:100%;display:block;}
 
 header.site{padding:26px 0;}
 header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;}
-header.site img{height:34px;width:auto;}
+header.site img{height:48px;width:auto;display:block;}
+.logo-link{display:inline-flex;align-items:center;}
+.headright{display:flex;flex-direction:column;align-items:flex-end;gap:3px;}
+.mainlink{font-size:13px;font-weight:500;color:#ac1d32;text-decoration:none;}
+.mainlink:hover{text-decoration:underline;}
 .loc{font-size:12.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);}
 
 .hero{padding:30px 0 54px;}
@@ -95,15 +99,18 @@ footer.site a{color:#fff;text-decoration:none;}
 
 <header class="site">
   <div class="wrap">
-    <img src="/images/robertson_wordmark.png" alt="Robertson Business Consulting">
-    <span class="loc">Business consulting &nbsp;·&nbsp; Vancouver, BC</span>
+    <a href="/" class="logo-link"><img src="/images/robertson_wordmark.png" alt="Robertson Business Consulting"></a>
+    <div class="headright">
+      <a class="mainlink" href="/">Visit the main site →</a>
+      <span class="loc">Vancouver, BC</span>
+    </div>
   </div>
 </header>
 
 <section class="hero">
   <div class="wrap">
     <div class="eyebrow">Free guide</div>
-    <h1>Feel like your business is <em>running you?</em></h1>
+    <h1>Feel like your business is running you?</h1>
     <p class="lead">Three things you can start fixing this week, and what each one tells you about your business.</p>
     <a class="btn" href="/robertson-3-things.pdf" download>Download the guide (PDF)</a>
     <p class="note">No email required. It's yours.</p>
