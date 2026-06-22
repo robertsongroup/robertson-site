@@ -7,3 +7,15 @@
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
+
+[[redirects]]
+  from = "https://robertsongroup.ca/*"
+  to = "https://www.robertsonconsulting.ca/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.robertsongroup.ca/*"
+  to = "https://www.robertsonconsulting.ca/:splat"
+  status = 301
+  force = true
