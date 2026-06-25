@@ -214,9 +214,9 @@
     <h2 class="big">Plain thinking on the realities of running a business.</h2>
     <p class="lead">Written from the owner's seat, not the lecture hall.</p>
     <div class="posts">
-      <a class="post" href="insights/the-owner-is-the-bottleneck.html"><span class="cat">Owner blind spots</span><h3>The owner is usually the bottleneck. Be honest. Is it you?</h3><span class="more">Read &rarr;</span></a>
-      <a class="post" href="insights/at-3m-the-business-changes.html"><span class="cat">Operator perspective</span><h3>At $3M, the business has to start running without you.</h3><span class="more">Read &rarr;</span></a>
-      <a class="post" href="insights/a-plan-without-accountability.html"><span class="cat">Leadership</span><h3>A plan without accountability isn't a plan. It's hope.</h3><span class="more">Read &rarr;</span></a>
+      {% for post in collections.posts limit:3 %}
+      <a class="post" href="{{ post.url }}"><span class="cat">{{ post.data.category }}</span><h3>{{ post.data.title }}</h3><span class="more">Read &rarr;</span></a>
+      {% endfor %}
     </div>
     <p style="margin-top:30px"><a class="btn-ghost" href="insights/index.html">All insights</a></p>
   </div>

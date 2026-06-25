@@ -1,3 +1,6 @@
+---
+permalink: "/insights/index.html"
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,13 +17,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
 <header>
   <div class="wrap nav">
-    <a class="brand" href="../index.html" aria-label="Robertson Business Consulting">
+    <a class="brand" href="/" aria-label="Robertson Business Consulting">
       <svg class="logo" viewBox="0 0 600 96" role="img" aria-label="Robertson Business Consulting">
         <rect x="6" y="14" width="11" height="68" rx="5" fill="#AC1D32"/>
         <text x="58" y="74" text-anchor="middle" font-family="'DM Serif Display',Georgia,serif" font-size="94" fill="#16161A">R</text>
@@ -29,51 +32,37 @@
       </svg>
     </a>
     <nav class="links">
-      <a class="lnk" href="../how-i-work.html">How I Work</a>
-      <a class="lnk" href="../about.html">About</a>
-      <a class="lnk active" href="index.html">Insights</a>
+      <a class="lnk" href="/how-i-work.html">How I Work</a>
+      <a class="lnk" href="/about.html">About</a>
+      <a class="lnk active" href="/insights/">Insights</a>
       <a class="btn nav-cta" href="https://outlook.office.com/bookwithme/user/0fa8b94af93e4cd9b8c860e72bc3c228@robertsonconsulting.ca?anonymous&ismsaljsauthenabled&ep=plink" target="_blank" rel="noopener">Book a discovery call</a>
     </nav>
   </div>
 </header>
 
-<!-- PAGE HEAD -->
-<section class="pagehead" style="background-image:url('../images/insights.jpg')">
+<section class="pagehead" style="background-image:url('/images/insights.jpg')">
   <div class="wrap">
     <span class="eyebrow">Insights</span>
     <h1>Plain thinking on the <span class="accent">realities of running a business.</span></h1>
-    <p class="sub">Written from the owner's seat, not the lecture hall. New pieces go up regularly. No theory for its own sake, just what I've seen actually move a business.</p>
+    <p class="sub">Written from the owner's seat, not the lecture hall. No theory for its own sake, just what I've seen actually move a business.</p>
   </div>
 </section>
 
-<!-- POSTS -->
 <section>
   <div class="wrap">
     <div class="posts">
-      <a class="post" href="the-owner-is-the-bottleneck.html">
-        <span class="cat">Owner blind spots</span>
-        <h3>The owner is usually the bottleneck. Is it you?</h3>
-        <p class="excerpt">You're great at the work. At some point that stops being enough, and the business needs you to do a different job.</p>
+      {% for post in collections.posts %}
+      <a class="post" href="{{ post.url }}">
+        <span class="cat">{{ post.data.category }}</span>
+        <h3>{{ post.data.title }}</h3>
+        <p class="excerpt">{{ post.data.excerpt }}</p>
         <span class="more">Read &rarr;</span>
       </a>
-      <a class="post" href="at-3m-the-business-changes.html">
-        <span class="cat">Operator perspective</span>
-        <h3>At $3M, the business has to start running without you.</h3>
-        <p class="excerpt">At $500K the owner is the business. By $3M it has to stand on its own. Here's what that takes.</p>
-        <span class="more">Read &rarr;</span>
-      </a>
-      <a class="post" href="a-plan-without-accountability.html">
-        <span class="cat">Leadership</span>
-        <h3>A plan without accountability isn't a plan. It's hope.</h3>
-        <p class="excerpt">Most owners confuse planning with execution. Three reasons the January goals are gone by March.</p>
-        <span class="more">Read &rarr;</span>
-      </a>
+      {% endfor %}
     </div>
-    <p style="margin-top:40px;color:var(--ink-soft)">More articles are on the way. I publish regularly, working through the archive of pieces I've shared and adding new ones.</p>
   </div>
 </section>
 
-<!-- CTA -->
 <section class="bg-ink cta-band">
   <div class="wrap">
     <h2>Rather talk it through than read about it?</h2>
@@ -82,7 +71,6 @@
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
   <div class="wrap">
     <div class="foot-grid">
@@ -94,10 +82,10 @@
       <div>
         <h4>Explore</h4>
         <ul>
-          <li><a href="../how-i-work.html">How I Work</a></li>
-          <li><a href="../about.html">About</a></li>
-          <li><a href="index.html">Insights</a></li>
-          <li><a href="../book-a-call.html">Book a call</a></li>
+          <li><a href="/how-i-work.html">How I Work</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/insights/">Insights</a></li>
+          <li><a href="/book-a-call.html">Book a call</a></li>
         </ul>
       </div>
       <div>
@@ -116,6 +104,6 @@
   </div>
 </footer>
 
-<script src="../script.js"></script>
+<script src="/script.js"></script>
 </body>
 </html>

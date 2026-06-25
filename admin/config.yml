@@ -7,13 +7,13 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "posts"
-    label: "Blog Posts"
+    label: "Insights / Blog Posts"
     folder: "posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
-      - { label: "Category", name: "category", widget: "select", options: ["Business Strategy", "IT Leadership", "SMB Topics"], required: false }
+      - { label: "Excerpt", name: "excerpt", widget: "text", required: false, hint: "One or two sentences shown on the Insights index and as the meta description." }
+      - { label: "Category", name: "category", widget: "select", options: ["Strategy & Execution", "Operator Perspective", "Owner Blind Spots", "Leadership", "Growth & Profit", "Thinking Out Loud"], required: false }
       - { label: "Body", name: "body", widget: "markdown" }

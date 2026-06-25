@@ -1,3 +1,4 @@
 {
-  "layout": "post.html"
+  "layout": "post.html",
+  "permalink": "/insights/{{ page.fileSlug }}/index.html"
 }
