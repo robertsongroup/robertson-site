@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Robertson Business Consulting | Business Strategy &amp; Coaching for Owner-Operated Companies | Metro Vancouver</title>
 <meta name="description" content="Business strategy, coaching, and structure for owner-operated companies in Metro Vancouver, Langley, and the Fraser Valley. Led by an owner who built and sold a business through the hardest years a company can face.">
+<link rel="canonical" href="https://www.robertsonconsulting.ca/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -145,9 +146,9 @@
     <h2>Plain thinking on the realities of running a business.</h2>
     <p class="lead">Written from the owner's seat, not the lecture hall.</p>
     <div class="posts" style="margin-top:46px">
-      <a class="post" href="https://www.robertsonconsulting.ca/insights/always-busy-never-moving/" target="_blank" rel="noopener"><span class="cat">Strategy &amp; Execution</span><h3>Always busy, never moving? You're working on the wrong things</h3><p class="excerpt">Win a customer, lose one. Make a hire, two leave. The bottleneck is usually the owner working hard on the wrong things.</p><span class="more">Read &rarr;</span></a>
-      <a class="post" href="https://www.robertsonconsulting.ca/insights/how-to-evaluate-a-vendor-without-getting-sold-to/" target="_blank" rel="noopener"><span class="cat">Owner Blind Spots</span><h3>How to evaluate a vendor without getting sold to</h3><p class="excerpt">You're not just buying technology, you're buying a relationship. The questions that cut through a polished demo.</p><span class="more">Read &rarr;</span></a>
-      <a class="post" href="https://www.robertsonconsulting.ca/insights/when-a-consultant-is-the-wrong-answer/" target="_blank" rel="noopener"><span class="cat">Thinking Out Loud</span><h3>When a consultant is the wrong answer</h3><p class="excerpt">Why would I give you reasons not to hire me? Because a consultant can't want it for you.</p><span class="more">Read &rarr;</span></a>
+      {% for post in collections.posts limit: 3 %}
+      <a class="post" href="{{ post.url }}"><span class="cat">{{ post.data.category }}</span><h3>{{ post.data.title }}</h3><p class="excerpt">{{ post.data.excerpt }}</p><span class="more">Read &rarr;</span></a>
+      {% endfor %}
     </div>
     <p style="margin-top:36px"><a class="ghost" href="insights/index.html">All insights</a></p>
   </div>
