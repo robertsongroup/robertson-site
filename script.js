@@ -1,4 +1,4 @@
-// Robertson Business Consulting — scroll reveal
+// Robertson Management Group — scroll reveal
 (function () {
   var t = document.querySelectorAll('.svc, .reveal');
   if (!t.length) return;

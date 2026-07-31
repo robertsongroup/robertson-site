@@ -8,14 +8,23 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
 
+# Old domain retired 2026-07-30. Everything on robertsonconsulting.ca
+# now 301s to the matching path on robertsongroup.ca.
 [[redirects]]
-  from = "https://robertsongroup.ca/*"
-  to = "https://www.robertsonconsulting.ca/:splat"
+  from = "https://robertsonconsulting.ca/*"
+  to = "https://www.robertsongroup.ca/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https://www.robertsongroup.ca/*"
-  to = "https://www.robertsonconsulting.ca/:splat"
+  from = "https://www.robertsonconsulting.ca/*"
+  to = "https://www.robertsongroup.ca/:splat"
+  status = 301
+  force = true
+
+# Canonical host is www.
+[[redirects]]
+  from = "https://robertsongroup.ca/*"
+  to = "https://www.robertsongroup.ca/:splat"
   status = 301
   force = true
