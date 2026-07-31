@@ -16,6 +16,32 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ title | json }},
+  "description": {{ excerpt | json }},
+  "url": "https://www.robertsongroup.ca{{ page.url }}",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.robertsongroup.ca{{ page.url }}" },
+  "datePublished": "{{ page.date | isoDate }}",
+  "dateModified": "{{ page.date | isoDate }}",
+  "articleSection": {{ category | json }},
+  "inLanguage": "en-CA",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.robertsongroup.ca/about.html#james",
+    "name": "James Robertson",
+    "url": "https://www.robertsongroup.ca/about.html"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.robertsongroup.ca/#organization",
+    "name": "Robertson Management Group",
+    "logo": { "@type": "ImageObject", "url": "https://www.robertsongroup.ca/images/robertson_wordmark.png" }
+  }
+}
+</script>
 </head>
 <body>
 
