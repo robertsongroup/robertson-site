@@ -1,0 +1,27 @@
+---
+title: "The thing you're too busy to fix is the thing making you busy"
+date: 2026-08-07T09:00:00-07:00
+excerpt: "The work that would give an owner their time back is structurally the work that loses every week, because it is the only thing on the list with no deadline attached. That is not a discipline problem, and it does not respond to trying harder."
+category: "Thinking Out Loud"
+---
+I've had the same conversation three times in the last few weeks, with three different owners who have never met each other. Each of them is carrying something they know would take real weight off them, and none of them can find the room to start it. The thing that would give them time back is the thing they don't have time for. I recognised it immediately, and not because I'm clever about other people's businesses. I lived in that loop for years, and I was worse at it than any of them.
+
+The moment it finally landed for me was an ordinary Tuesday. I was still at the office after everyone else had gone home, which was most days by then, and I was going back over a management meeting from that morning where almost nothing had moved since the week before. Every item on that list was stalled for the same reason. Someone was waiting on me. A decision I hadn't made, a vendor I hadn't called, an obstacle only I could clear. My team wasn't slow. They were blocked, and I was the block. I was in the way.
+
+What I find harder to admit is that some part of me liked it. Being the person everything ran through felt like proof the business needed me, and there's a certain satisfaction in being the one who can unstick anything. We tell ourselves that's what commitment looks like. It isn't. It's a bottleneck wearing a nicer name, and I have written before about how often [the owner turns out to be the constraint](/insights/the-biggest-bottleneck-is-probably-you/) they've been looking for.
+
+Here's the part I wish someone had explained to me properly, because it would have saved me a couple of years. The work that fixes this loses every single week, and it doesn't lose because you don't care about it. It loses because it's structurally weaker than everything it competes with. Client work has a date on it and someone chasing it. Payroll has a date. The invoice run has a date. Building the process that means you never have to do a thing again has no date at all, and nobody is waiting on it, so it slides to next week, and next week is exactly as full as this one. Repeat that for three years and you have a business that cannot run without you.
+
+None of it arrives as a single bad decision either. It builds one reasonable choice at a time. Every individual instance really is faster to do yourself than to explain, and each of those calls is defensible in isolation. It's only the accumulation that's fatal. That's why it doesn't respond to trying harder. You cannot discipline your way out of a structural problem, and telling an already exhausted owner to be more disciplined is both useless and a bit insulting.
+
+The answer I landed on is a phrase I've been repeating ever since. Every day a little up.
+
+It means you stop waiting for the clear afternoon that is never coming, and you take the smallest available step instead. If the thing needs two hours you don't have, find the fifteen-minute piece of it that moves it one notch forward. If what's stuck is a decision, the fix usually isn't making the decision faster. It's handing the authority to make that class of decision to someone else, permanently, which is [a different act from handing over the task](/insights/delegating-authority/) and the one most of us skip. If what's stuck is a task, write down how it's done and teach someone, accepting that this round will take longer than doing it yourself would have.
+
+That last part is where people quit, so it's worth being honest about it. It does get worse before it gets better. The first few handovers cost you more time than they save, the work comes back not quite how you'd have done it, and you will be tempted to take it back. Take it back and you have taught your team that handing things over is theatre. Leave it with them and you have bought a piece of your week back permanently. The maths is brutal in your favour if you can survive the first month of it.
+
+The habit that changed things for me was smaller than any of that. Every time something new came at me, my first question stopped being "when can I get to this" and became "how does this get done without relying on me." Most of the time the answer was someone else, sometimes with a bit of training attached. Occasionally the answer was genuinely me, and those were the things worth my week. Knowing which is which is honestly hard to see from inside your own business, which is a good part of what an [outside perspective](/how-i-work.html) is actually for.
+
+If you want somewhere to start, take two minutes and write down five things that currently depend entirely on you that somebody else could do. Don't pick the biggest. Pick the smallest, the one you could genuinely hand over this week, and hand it over properly. Train someone, write the process, automate it, whatever it takes to make sure it never lands back on your desk. You might spend an hour on it, and you will have given yourself back fifteen minutes a week for as long as the business exists.
+
+Then do it again next week. That's the whole method, and it's the only one I've seen work.
