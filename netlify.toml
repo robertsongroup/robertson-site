@@ -28,3 +28,26 @@
   to = "https://www.robertsongroup.ca/:splat"
   status = 301
   force = true
+
+# Pillar pages were indexed without the .html extension on the old domain.
+# Rebuilt 2026-08-12; these keep the indexed URLs resolving. (2026-08-12)
+
+[[redirects]]
+  from = "/business-coach"
+  to = "/business-coach.html"
+  status = 301
+
+[[redirects]]
+  from = "/business-strategy"
+  to = "/business-strategy.html"
+  status = 301
+
+[[redirects]]
+  from = "/business-growth"
+  to = "/business-growth.html"
+  status = 301
+
+[[redirects]]
+  from = "/business-operations"
+  to = "/business-operations.html"
+  status = 301

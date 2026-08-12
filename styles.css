@@ -182,7 +182,7 @@ header.solid .lnk:hover,header.solid .lnk.active{color:var(--crimson)}
 
 /* footer */
 footer{background:#fff;border-top:1px solid var(--line);padding:60px 0 36px}
-.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px}
+.foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:34px}
 .foot-grid p{color:var(--ink-soft);font-size:15.5px}
 .foot .tag{font-style:italic;color:var(--crimson);margin-top:16px}
 footer h4{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--crimson);margin-bottom:14px}
@@ -218,3 +218,10 @@ footer li a:hover{color:var(--crimson)}
   .story-grid,.book-grid{grid-template-columns:1fr;gap:30px}
   .foot-grid{grid-template-columns:1fr;gap:28px}
 }
+
+/* Service pillar page FAQ blocks (2026-08-12) */
+.faq{max-width:780px;margin:40px auto 0;text-align:left}
+.faq-item{border-top:1px solid var(--line);padding:26px 0}
+.faq-item:last-child{border-bottom:1px solid var(--line)}
+.faq-item h3{font-size:1.32rem;margin-bottom:10px}
+.faq-item p{color:var(--ink-soft);font-size:1.06rem;line-height:1.66}
